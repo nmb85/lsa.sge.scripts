@@ -4,7 +4,7 @@ import sys, getopt
 import glob, os
 
 # MergeHash can maybe go on the hours queue
-# To change the queue name, sed 's/micro/NEW_QUEUE_NAME/g' create_jobs.py
+# To change the queue name, sed -i 's/micro/NEW_QUEUE_NAME/g' create_jobs.py
 
 JobParams = {
 	'CreateHash': {
